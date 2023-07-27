@@ -1,0 +1,543 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Researcher Auth Service · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="DCFS.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    CRDC Architecture
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Commons Infrastructure Services
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1.1" data-path="RAS.html">
+            
+                <a href="RAS.html">
+            
+                    
+                    Researcher Auth Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="DCFS.html">
+            
+                <a href="DCFS.html">
+            
+                    
+                    Data Commons Framework Services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="CDA.html">
+            
+                <a href="CDA.html">
+            
+                    
+                    Cancer Data Aggregator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="DSS.html">
+            
+                <a href="DSS.html">
+            
+                    
+                    Metadata Services for Cancer Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Commons/">
+            
+                <a href="../Commons/">
+            
+                    
+                    Data Commons Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../Commons/GDC.html">
+            
+                <a href="../Commons/GDC.html">
+            
+                    
+                    Genomic Data Commons (GDC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../Commons/IDC.html">
+            
+                <a href="../Commons/IDC.html">
+            
+                    
+                    Imaging Data Commons (IDC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../Commons/PDC.html">
+            
+                <a href="../Commons/PDC.html">
+            
+                    
+                    Proteomic Data Commons (PDC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="../Commons/ICDC.html">
+            
+                <a href="../Commons/ICDC.html">
+            
+                    
+                    Integrated Canine Data Commons (ICDC)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="../Commons/CDS.html">
+            
+                <a href="../Commons/CDS.html">
+            
+                    
+                    Cancer Data Service (CDS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../CRS.html">
+            
+                <a href="../CRS.html">
+            
+                    
+                    Cloud Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../Computing_Infrastructure/">
+            
+                <a href="../../Computing_Infrastructure/">
+            
+                    
+                    Computing Infrastructure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../Data_Lifecycle/">
+            
+                <a href="../../Data_Lifecycle/">
+            
+                    
+                    Data Lifecycle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../Architecture_Development/">
+            
+                <a href="../../Architecture_Development/">
+            
+                    
+                    Architecture Development
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../Architecture_Development/Guidance/">
+            
+                <a href="../../Architecture_Development/Guidance/">
+            
+                    
+                    Guidance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../../Architecture_Development/Roadmap.html">
+            
+                <a href="../../Architecture_Development/Roadmap.html">
+            
+                    
+                    Roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Researcher Auth Service</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nih-researcher-auth-service-ras">NIH Researcher Auth Service (RAS)</h1>
+<p>RAS facilitates access to NIH’s open and controlled access data assets and repositories in a consistent, secure, and user-friendly manner and provides researchers with a single sign-on experience across participating data resources.  </p>
+<ul>
+<li>Website URL: <a href="https://datascience.nih.gov/researcher-auth-service-initiative#about" target="_blank">https://datascience.nih.gov/researcher-auth-service-initiative#about</a></li>
+<li>Public Documentation: <a href="https://auth.nih.gov/docs/RAS/serviceofferings.html" target="_blank">https://auth.nih.gov/docs/RAS/serviceofferings.html</a></li>
+<li>Box Documentation: <a href="https://app.box.com/s/ss46qdd5jpu7nxyy6zpas8w3tgpo9frd" target="_blank">https://app.box.com/s/ss46qdd5jpu7nxyy6zpas8w3tgpo9frd</a></li>
+<li>Integration SOP: <a href="https://nih.app.box.com/file/942204644655?s=2s8jru4ky2pcfm24nr8gub692j1tvazf" target="_blank">https://nih.app.box.com/file/942204644655?s=2s8jru4ky2pcfm24nr8gub692j1tvazf</a></li>
+<li>Fed Lead: Erin Beck</li>
+<li>TPM: Sam Pathak</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Commons Infrastructure Services">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="DCFS.html" class="navigation navigation-next " aria-label="Next page: Data Commons Framework Services">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Researcher Auth Service","level":"1.2.1.1","depth":3,"next":{"title":"Data Commons Framework Services","level":"1.2.1.2","depth":3,"path":"Architecture/Infrastructure/DCFS.md","ref":"Architecture/Infrastructure/DCFS.md","articles":[]},"previous":{"title":"Commons Infrastructure Services","level":"1.2.1","depth":2,"path":"Architecture/Infrastructure/README.md","ref":"Architecture/Infrastructure/README.md","articles":[{"title":"Researcher Auth Service","level":"1.2.1.1","depth":3,"path":"Architecture/Infrastructure/RAS.md","ref":"Architecture/Infrastructure/RAS.md","articles":[]},{"title":"Data Commons Framework Services","level":"1.2.1.2","depth":3,"path":"Architecture/Infrastructure/DCFS.md","ref":"Architecture/Infrastructure/DCFS.md","articles":[]},{"title":"Cancer Data Aggregator","level":"1.2.1.3","depth":3,"path":"Architecture/Infrastructure/CDA.md","ref":"Architecture/Infrastructure/CDA.md","articles":[]},{"title":"Metadata Services for Cancer Data","level":"1.2.1.4","depth":3,"path":"Architecture/Infrastructure/DSS.md","ref":"Architecture/Infrastructure/DSS.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Architecture/Infrastructure/RAS.md","mtime":"2023-07-27T13:25:01.645Z","type":"markdown"},"gitbook":{"version":"5.0.0","time":"2023-07-27T17:43:01.897Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

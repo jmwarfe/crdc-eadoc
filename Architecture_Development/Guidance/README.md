@@ -1,0 +1,32 @@
+# Architecture Guidance
+
+- Submission & Storage (DataHub/Commons): 
+    - Data Hub Submission Coordination
+    - Data Commons Portal (Bento based vs Gen3 based)
+    - Long term data storage (compression + tiering or vendor)
+    - Data Validation Engine
+- Harmonization & Curation (DataHub/Commons/CDA/CRs): 
+    - Containerized workflows/harmonization
+    - Metadata Management
+- QA/QC
+    - Indexing (DCF): 
+    - Data Indexing and Serving
+    - Access (Commons Portals, DataHub, CDA):
+    - CDA Query
+    - DataHub Access Portal
+- Analysis (CRs + Data Commons provided tooling): 
+    - Data release through cloud resources
+    - Interoperability 
+- Ancillary support across lifecycle: 
+    - Logging and Monitoring
+    - Security/Network/Firewall
+    - Identity Access and Management
+    - CRDC Webpages
+    - CI/CD
+    - Helpdesk
+    - FinOps/Cost Monitoring
+    - API Design
+    - Micro Service Architecture
+    - Deployment and Configuration Management
+    - Performance Efficiency
+    - Authority to Operate (ATO)
